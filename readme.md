@@ -1,16 +1,18 @@
-# Contact
+# MapStruct 🗺  + Spring Boot 🌱 learning project
+
+## Contact class
 Basic Mapping
 ```java
     @Mapper(componentModel = "spring")
 ```
 
-# User
+## User class
 Mapping with different names
 ```java
     @Mapping(target = "email", source = "emailId")
 ```
 
-# Employee & Department
+## Employee & Department class
 compositional beans && map from object to class
 ```java
     @Mapping(target = "department.deptName", source = "departmentName")
