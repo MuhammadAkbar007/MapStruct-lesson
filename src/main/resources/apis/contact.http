@@ -1,0 +1,16 @@
+### Create
+POST http://localhost:8080/api/v1/contact
+Content-Type: application/json
+
+{
+	"firstName": "Abdulbori",
+	"lastName": "Bo'riyev",
+	"email": "boriyev@gmail.com",
+	"phoneNumber": "+998919876543"
+}
+
+### Get all
+GET http://localhost:8080/api/v1/contact
+
+### Get by id
+GET http://localhost:8080/api/v1/contact/1

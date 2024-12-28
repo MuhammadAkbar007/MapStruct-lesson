@@ -1,0 +1,16 @@
+### Create
+POST http://localhost:8080/api/v1/employee
+Content-Type: application/json
+
+{
+	"empName": "Abdulbori",
+	"email": "boriyev@gmail.com",
+	"salary": "150000",
+	"departmentName": "IT"
+}
+
+### Get by id
+GET http://localhost:8080/api/v1/employee/52
+
+### Get by id
+GET http://localhost:8080/api/v1/employee/employee-details/52
