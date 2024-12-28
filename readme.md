@@ -12,7 +12,7 @@ Mapping with different names
     @Mapping(target = "email", source = "emailId")
 ```
 
-## Employee & Department class
+## Employee & Department classes
 compositional beans && map from object to class
 ```java
     @Mapping(target = "department.deptName", source = "departmentName")
@@ -20,6 +20,7 @@ compositional beans && map from object to class
     @Mapper(
         componentModel = "spring",
         uses = {DepartmentMapper.class})
+
         @Mapping(target = "department", source = "departmentDto")
 
 ```
